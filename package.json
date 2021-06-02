@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodem server.js",
+    "start": "node server.js",
     "start:dev": "nodemon server.js"
   },
   "keywords": [],
@@ -14,7 +14,6 @@
     "nodemon": "^2.0.7"
   },
   "dependencies": {
-    "nodemon": "^2.0.7",
     "bcrypt-nodejs": "0.0.3",
     "body-parser": "^1.19.0",
     "clarifai": "^2.9.1",
